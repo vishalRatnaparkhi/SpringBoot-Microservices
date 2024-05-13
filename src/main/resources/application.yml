@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:admin@micro-services.pcnlxzl.mongodb.net/
+      database: micro-services
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+
