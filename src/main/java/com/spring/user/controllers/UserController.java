@@ -26,6 +26,7 @@ public class UserController {
     private  ResponseEntity<User> getSingleUser(@PathVariable String userId)
     {
         User user= userService.getUser(userId);
+
         return  ResponseEntity.ok(user);
 
     }
@@ -36,4 +37,5 @@ public class UserController {
         return  ResponseEntity.ok(users);
 
     }
+
 }
